@@ -26,10 +26,8 @@ function urlSlug(title) {
 
 var winterComing = urlSlug(globalTitle); // Returns "winter-is-coming"
 
-
-
-
-
+//  \w is a shortcut to match alphanumerics [A-Za-z0-9_] including the underscore character _
+// \ W is the same as [^A-Za-z0-9_] to match everything but letters & numbers
 
 // Retrieved from
 // https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs/
