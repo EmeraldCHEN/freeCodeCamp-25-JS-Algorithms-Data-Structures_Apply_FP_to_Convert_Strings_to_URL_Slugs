@@ -27,10 +27,8 @@ function urlSlug(title) {
 var winterComing = urlSlug(globalTitle); // Returns "winter-is-coming"
 
 
+
 /****** But the code above cannot remove the "_" if any  ********************************/
-
-
-
 
 function urlSlugNoUnderscore(title) {
  
