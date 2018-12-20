@@ -22,6 +22,10 @@ function urlSlug(title) {
     slug2 = slug1.slice(1);
 
     return (slug1[0] == "-" ?  slug2:  slug1);  
+    
+    // Or simply use one line of code as below
+    
+    // return title.toLowerCase().trim().split(/\W+/).join("-");
 }
 
 var winterComing = urlSlug(globalTitle); // Returns "winter-is-coming"
