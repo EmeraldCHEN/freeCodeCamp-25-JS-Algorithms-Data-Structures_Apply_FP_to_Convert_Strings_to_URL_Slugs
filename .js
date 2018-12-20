@@ -1,3 +1,4 @@
+// The following code would not use the replace method
 
 var globalTitle = "    Winter     Is Coming";
 
